@@ -10,10 +10,14 @@ default: &default
 development:
   <<: *default
   database: dummy_development
+  username: espada
+  password: K1ng3Glav3
 
 test:
   <<: *default
   database: dummy_test
+  username: espada
+  password: K1ng3Glav3
 
 production:
   <<: *default
